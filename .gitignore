@@ -1,0 +1,69 @@
+# Logs
+/vue-project/logs
+*.log
+/vue-project/npm-debug.log*
+/vue-project/yarn-debug.log*
+/vue-project/yarn-error.log*
+/vue-project/pnpm-debug.log*
+/vue-project/lerna-debug.log*
+
+# Node modules
+/vue-project/node_modules/*
+
+# macOS and IDE files
+/vue-project/.DS_Store
+/vue-project/dist/
+/vue-project/dist-ssr/
+/vue-project/coverage/
+/vue-project/*.local
+
+**/.DS_Store
+# Cypress videos and screenshots
+/vue-project/cypress/videos/
+/vue-project/cypress/screenshots/
+
+__pycache__
+*.pyc
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+/*.suo
+/*.ntvs*
+/*.njsproj
+/*.sln
+/*.sw?
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Django backend files and directories
+/backend_repo/venv/
+/backend_repo/db.sqlite3
+/backend_repo/migrations/
+/backend_repo/__pycache__/
+/backend_repo/.env
+/backend_repo/debug.log
+
+# Media and static files
+/backend_repo/media/
+/backend_repo/static/
+
+
+# Vue Project Exclusions
+vue-project/node_modules/
+vue-project/public/dist/
+vue-project/dist/
+vue-project/package-lock.json
+
+# Django Project Exclusions
+backend_repo/venv/
+backend_repo/db.sqlite3
+
+# General Exclusions
+*.pyc
+__pycache__/
+.DS_Store
+.vscode/
